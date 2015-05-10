@@ -20,28 +20,28 @@ var kontaktApi = new KontaktApi('<YOURAPIKEYHERE>');
 Current Methods supportd on Beacons are
 1- GET beaconById
 ```
-kontaktApi.beaconByProximity({proximity: 'f7826da6-4fa2-4e98-8024-bc5b71e0893e', major: '39304', minor: '61171'},
+kontaktApi.beaconByProximity({proximity: '<YOURPROXIMITY>', major: '<YOURMAJOR>', minor: '<YOURMINOR>'},
     function (err, res) {
               console.log(res);
       });
 ```
 2- GET beaconByManager
 ```
-kontaktApi.beaconByManager({managerId: '6fd36eb4-0f60-4f5b-8c43-1dcc0cffa03f'},
+kontaktApi.beaconByManager({managerId: '<YOURMANAGERID>'},
   function (err, res) {
             console.log(res);
     });
 ```
 3- GET beaconByProximity
 ```
-kontaktApi.beaconByProximity({proximity: 'f7826da6-4fa2-4e98-8024-bc5b71e0893e', major: '39304', minor: '61171'},
+kontaktApi.beaconByProximity({proximity: '<YOURPROXIMITY>', major: '<YOURMAJOR>', minor: '<YOURMINOR>'},
     function (err, res) {
               console.log(res);
       });
 ```
 4- GET beaconCredentials
 ```
-kontaktApi.beaconCredentials({beaconId: 'Umvb'},
+kontaktApi.beaconCredentials({beaconId: '<YOURBEACONID>'},
 function (err, res) {
   console.log(res);
 });
