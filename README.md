@@ -14,11 +14,7 @@ Example:
 ```
 var KontaktApi = require('node-kontakt.io');
 var kontaktApi = new KontaktApi('<YOURAPIKEYHERE>');
- //GET by beacon ID
- kontaktApi.beaconByProximity({proximity: 'f7826da6-4fa2-4e98-8024-bc5b71e0893e', major: '39304', minor: '61171'},
-    function (err, res) {
-              console.log(res);
-      });
+
 ```
 
 Current Methods supportd on Beacons are
