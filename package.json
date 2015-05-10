@@ -1,0 +1,26 @@
+{
+  "name": "kontakt-node",
+  "version": "1.0.0",
+  "description": "REST API for node to kontakt beacons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wonderdogone/node-kontakt.io.git"
+  },
+  "keywords": [
+    "beacons",
+    "kontakt.io"
+  ],
+  "author": "JW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wonderdogone/node-kontakt.io/issues"
+  },
+  "homepage": "https://github.com/wonderdogone/node-kontakt.io",
+  "dependencies": {
+    "request": "2.55.0"
+  }
+}
