@@ -1,4 +1,4 @@
-### node-kontakt.io
+### kontakt-node
 A node module using the Kontakt.io REST API. Allows you to programmatically access all your devices, venues, actions etc in the kontakt.io Cloud.
 aimed at Node.js and IO.js developers who want to manage all their kontakt.io cloud interactions using standalone or web applications.
 
