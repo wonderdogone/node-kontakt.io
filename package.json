@@ -1,6 +1,6 @@
 {
   "name": "kontakt-node",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "REST API for node to kontakt beacons",
   "main": "index.js",
   "scripts": {
