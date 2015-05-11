@@ -20,10 +20,9 @@ var kontaktApi = new KontaktApi('<YOURAPIKEYHERE>');
 Current Methods supportd on Beacons are
 1- GET beaconById
 ```
-kontaktApi.beaconByProximity({proximity: '<YOURPROXIMITY>', major: '<YOURMAJOR>', minor: '<YOURMINOR>'},
-    function (err, res) {
-              console.log(res);
-      });
+ kontaktApi.beaconById({beaconId: '<YOURBEACONID>'}, function (err, res) {
+           console.log(res);
+   });
 ```
 2- GET beaconByManager
 ```
