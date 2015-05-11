@@ -12,7 +12,7 @@ You must have a developer account and access key from Kontakt.io. Go here and ge
 Once you have your access key , inculde and initialize your module using your "key"
 Example:
 ```
-var KontaktApi = require('node-kontakt.io');
+var KontaktApi = require('kontakt-node');
 var kontaktApi = new KontaktApi('<YOURAPIKEYHERE>');
 
 ```
