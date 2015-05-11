@@ -5,7 +5,7 @@ aimed at Node.js and IO.js developers who want to manage all their kontakt.io cl
 Currently this module only supports GET requests in releaction to Beacon resource. Collaborators feel free to help as I add other request typs and resources.
 
 ##Install
-`npm install node-kontakt.io`
+`npm install kontakt-node`
 
 
 You must have a developer account and access key from Kontakt.io. Go here and get yours http://panel.kontakt.io/
