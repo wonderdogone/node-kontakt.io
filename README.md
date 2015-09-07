@@ -9,7 +9,7 @@ Currently this module only supports GET requests in releaction to Beacon resourc
 
 
 You must have a developer account and access key from Kontakt.io. Go here and get yours http://panel.kontakt.io/
-Once you have your access key , inculde and initialize your module using your "key"
+Once you have your access key , include and initialize your module using your "key"
 Example:
 ```
 var KontaktApi = require('kontakt-node');
